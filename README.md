@@ -58,7 +58,14 @@ Having data on quantity of research and disease prevalence in different countrie
 
 For each disease, we depict below the prevalence of the given disease against the number of experiments conducted on it:
 
- - Add all 8 graphs showing prevalence vs research
+ - [HIV](plot_HIV.html)
+ - [Plasmodium falciparum](plot_Plasmodium_falciparum.html)
+ - [Poliovirus](plot_Poliovirus.html)
+ - [Plasmodium vivax](plot_Plasmodium_vivax.html)
+ - [Tuberculosis](plot_Tuberculosis.html)
+ - [Hepatitis C](plot_Hepatitis_C.html)
+ - [Escherichia coli](plot_Escherichia_coli.html)
+ - [Staphylococcus](plot_Staphylococcus_aureus)
 
 From the graphs we observe that many countries with high prevalence of a disease do not necessarily have a high number of experiments conducted on it. On the other hand, countries with low prevalence of a disease can have a high number of experiments conducted on it. This makes sense, as many countries with high prevalence of a disease might not have the resources to conduct research on it, while countries with low prevalence might have the resources to conduct research on it.
 
