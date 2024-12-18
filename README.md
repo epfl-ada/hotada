@@ -58,7 +58,7 @@ Having data on quantity of research and disease prevalence in different countrie
 
 For each disease, we depict below the prevalence of the given disease against the number of experiments conducted on it:
 
- - [HIV](plot_HIV.html)
+ - [HIV](https://Amine-ZGHAL.github.io/hotada/plot_HTML.html)
  - [Plasmodium falciparum](plot_Plasmodium_falciparum.html)
  - [Poliovirus](plot_Poliovirus.html)
  - [Plasmodium vivax](plot_Plasmodium_vivax.html)
