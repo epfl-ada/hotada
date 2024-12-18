@@ -14,7 +14,23 @@ These are the research questions we try to answer:
 
  To answer these questions, we use the BindingDB dataset. It contains data about the binding affinity between ligands and targets. It contains 2937206 results on 1,295,089 ligands and 6746 targets. In total, there are 330 different source organisms for the targets. For each experiment, we have the institution where it was made (university or company). Since we want to make a geographical analysis of the trends of research, we focused on the universities and institutions that are located only in one country (companies have multiple faculties in different countries). 
 
- 
+![alt text](Top 10 Countries by number of institutions.png)
+
+From this graph, we can see that the United States is the country with the most institutions that have carried out experiments listed in the dataset. Then there is China, Germany and Italy.
+
+![alt text](Top 10 Countries by number of constitutions.png)
+
+From this graph, we can see that the USA is the country that has carried out the most experiments (around 380000 experiments were made in the USA), while China is second with around 150000 experiments and then there is Germany and Italy with around 100000 experiments
+
+![alt text](Institutions by continent pie chart.png)
+
+From this graph, we can see that Europe is the continent with the most institutions (39.4%) that have carried out experiments listed in the dataset. Then there is Asia (29.0%) and North America (26.8%).
+
+![alt text](contributions by continent pie chart.png)
+
+From this graph, we observe that 39.2% of the experiments are made in North America, 34.3% in Europe and 23.5% in Asia while only 3% are made in Africa/Oceania/South America.
+
+In conclusion, we observe that most of the research is done in Europe, North America and Asia. Then we wanted to analyze how research activity aligns with disease presence across countries and continents. We decided to do this analysis on 8 major diseases.
 
 # Does the prevalence of a disease in a region drive the amount and focus of research conducted there?
 
