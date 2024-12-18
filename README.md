@@ -1,5 +1,21 @@
-# ADA Template Website
-## Usage
+# Predicting Drug-Drug Interactions Based on Likeness and Geographical Prevalence
+
+ What impact does geography have on the development of drugs? Specifically, does drug's origin matter in drug-drug interaction? The development of pharmaceuticals is a collaborative effort that often reflects the expertise and innovation of the institutions behind them. This project aims to investigate whether drugs developed within the same institutions exhibit superior interaction profiles compared to those developed independently. One may hypothesise that shared research environments, methodologies, and collaborative networks contribute to a higher likelihood of favorable interactions among drugs originating from the same institution.
+
+ Does the prevalence of a disease in a region have an effect on local drug development? The world is highly interconnected and an outbreak of any disease anywhere is today a menace for the whole world. Are there however any trends one can observe in the location of drug research with respect to the geographical prevalence of a disease?
+
+These are the research questions we try to answer:
+1. **Institutional Influence on DDIs**: Do drugs developed in the same universities interact positively?
+2. **Regional Disease Influence on Research**: Does the prevalence of a disease in a region drive the amount and focus of research conducted there?  
+3. **Compatibility of Popular Drugs**: Do highly "likable" drugs, based on QED, exhibit good interactions?
+4. **Predictive DDI Modeling**: Can we predict interaction outcomes for novel drug pairs, and propose new candidates for future research?
+
+## Some Analysis on BindingDB Dataset
+
+ To answer these questions, we use the BindingDB dataset. It contains data about the binding affinity between ligands and targets. It contains 2937206 results on 1,295,089 ligands and 6746 targets. In total, there are 330 different source organisms for the targets. For each experiment, we have the institution where it was made (university or company). Since we want to make a geographical analysis of the trends of research, we focused on the universities and institutions that are located only in one country (companies have multiple faculties in different countries). 
+
+ 
+
 # Does the prevalence of a disease in a region drive the amount and focus of research conducted there?
 
 ## WHO database
