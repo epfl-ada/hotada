@@ -14,7 +14,7 @@ These are the research questions we try to answer:
 
  To answer these questions, we use the BindingDB dataset. It contains data about the binding affinity between ligands and targets. It contains 2937206 results on 1,295,089 ligands and 6746 targets. In total, there are 330 different source organisms for the targets. For each experiment, we have the institution where it was made (university or company). Since we want to make a geographical analysis of the trends of research, we focused on the universities and institutions that are located only in one country (companies have multiple faculties in different countries). 
 
-![alt text](Top 10_Countries_by_number_of_institutions.png)
+![alt text](Top_10_Countries_by_number_of_institutions.png)
 
 From this graph, we can see that the United States is the country with the most institutions that have carried out experiments listed in the dataset. Then there is China, Germany and Italy.
 
@@ -30,7 +30,7 @@ From this graph, we can see that Europe is the continent with the most instituti
 
 From this graph, we observe that 39.2% of the experiments are made in North America, 34.3% in Europe and 23.5% in Asia while only 3% are made in Africa/Oceania/South America.
 
-In conclusion, we observe that most of the research is done in Europe, North America and Asia. Then we wanted to analyze how research activity aligns with disease presence across countries and continents. We decided to do this analysis on 8 major diseases.
+In conclusion, we observe that most of the research is done in Europe, North America and Asia. Then we wanted to analyze how research activity aligns with disease presence across countries and continents. 
 
 # Does the prevalence of a disease in a region drive the amount and focus of research conducted there?
 
