@@ -97,6 +97,6 @@ What happens if we look at the relationship between the prevalence of a disease 
 
  - country-country ols heatmap
 
-The cells with thick borders indicate statistically significant relationships. We can observe that there are some countries where the relationship between prevalence and research is statistically significant. For example, research in France is positively related to disease prevalence in Africa. In total 17 out of 144 relationships are statistically significant (p-value < 0.1). All these cases describe relationships where geographical proportions of disease prevalence predict the proportions of research conducted on the disease in a certain country.
+The cells with thick borders indicate statistically significant relationships. We can observe that there are some countries where the relationship between prevalence and research is statistically significant. For example, research in France is positively related to disease prevalence in Africa. In total 15 out of 144 relationships are statistically significant (p-value < 0.1). All these cases describe relationships where geographical proportions of disease prevalence predict the proportions of research conducted on the disease in a certain country.
 
 In reality, there are many more diseases in the world, and many more factors that can affect amounts of research conducted on a disease. This analysis could be expanded to include more diseases and more factors to get a better understanding of the factors that affect research on diseases.
