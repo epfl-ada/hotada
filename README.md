@@ -34,6 +34,14 @@ The graph shows that 39.2% of the experiments were conducted in North America, 3
 
 In conclusion, the graphs show that the majority of research is conducted in Europe, North America, and Asia, and most research institutions are also located in these regions.
 
+## Target based insights
+
+We want to have more insights on the target source organisms. For each target source organism (TSO), we computed the proportion of experiments (for which the source organism of the target is provided) done. 
+
+![alt text](proportion_of_experiments_given_TSO.png)
+
+The graph shows that 81.6% of the experiments are conducted on targets derived from Homo sapiens (humans), followed by Rattus norvegicus (rats).
+
 # Does the prevalence of a disease in a region drive the amount and focus of research conducted there?
 
 ## WHO database
@@ -54,6 +62,14 @@ For each disease, data on the prevalence in different countries is available fro
 ![alt text](diseases_per_region.png)
 
 We can for example observe that many diseases are more prevalent in regions such as Africa and Eastern Mediterranean, as opposed to the Americas and Western Pacific.
+
+The heatmap below shows the number of research experiments by disease and continent. The number of research experiments is normalized for each disease, hence a red square corresponds to the region with the most research on the disease and dark blue square corresponds to the region with the least research on the disease.
+
+![alt text](number_of_research_studies_by_disease_and_region.png)
+
+The heatmap reveals that Africa has the least amount of research conducted on these diseases, while America leads with the most research. Europe comes in second. 
+
+The heatmaps show that regions with a high prevalence of diseases, such as Africa and the Eastern Mediterranean, have the least research conducted on these diseases. In contrast, regions with lower prevalence, such as America and Europe, have the highest research output. This disparity may be due to regions with high disease prevalence lacking the necessary resources for research, while regions with lower prevalence have greater research capacity.   
 
 ## Prevalence-Research Analysis
 Having data on quantity of research and disease prevalence in different countries, we can now analyze the relationship between the two. The question of how the prevalence of a disease in a region drives the amount and focus of research conducted there can be answered by comparing the two datasets.
