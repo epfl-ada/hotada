@@ -47,7 +47,7 @@ The graph shows that 81.6% of the experiments are conducted on targets derived f
 ## WHO database
 Up intil now we have done an analysis of the BindingDB database. To carry out an analysis comparing reasearch and disease prevalence, we need data on the prevalence of the diseases researched in the BindingDB data. For this, we will use data from WHO. The data is available at the following link: https://ghoapi.azureedge.net/api/.
 
-After checking the data, we found 8 diseases for which we have data in both databases. These are:
+After checking the WHO database, we found 8 diseases for which we have data in both databases. These are:
  - Plasmodium Falciparum
  - Human Immunodeficiency Virus
  - Poliovirus
@@ -63,7 +63,7 @@ For each disease, data on the prevalence in different countries is available fro
 
 We can for example observe that many diseases are more prevalent in regions such as Africa and Eastern Mediterranean, as opposed to the Americas and Western Pacific.
 
-The heatmap below shows the number of research experiments by disease and continent. The number of research experiments is normalized for each disease, hence a red square corresponds to the region with the most research on the disease and dark blue square corresponds to the region with the least research on the disease.
+The heatmap below shows the number of research experiments by disease and continent. The number of research experiments is normalized for each disease, hence a red squares correspond to the regions with the most research on a disease and dark blue squares correspond to the regions with the least research on a disease.
 
 ![alt text](number_of_research_studies_by_disease_and_region.png)
 
@@ -91,12 +91,12 @@ To better quantify the relationship between prevalence and research, we perform 
 
  - region-region ols heatmap
 
-The numbers and colors shown can be best described as measures of the proportions of research conducted in a region given the proportions of a disease's prevalence in a region. Observing the diagonal, we can in effect observe that the relationship between prevalence and research is in general not very strong within regions. There are however, there are some relationships in between regions that appear to be stronger. For example, the realtionship between prevalence in Western Pacific and research in the Americas seems to be strongly positive. However, we cannot safely make any conclusions from this analysis, as none of the results are statistically significant (p-values are all above 0.05).
+The numbers and colors shown can be best described as measures of the proportions of research conducted in a region given the proportions of a disease's prevalence per capita in a region. Observing the diagonal, we can in effect observe that the relationship between prevalence and research is in general not very strong within regions. There are however, there are some relationships in between regions that appear to be stronger. For example, the relationship between prevalence in Western Pacific and research in the Americas seems to be strongly positive. However, we cannot safely make any conclusions from this analysis, as none of the results are statistically significant (p-values are all above 0.10).
 
 What happens if we look at the relationship between the prevalence of a disease in a region and the number of experiments conducted on it in each individual country? The heatmap below shows the results of the linear regression analysis:
 
  - country-country ols heatmap
 
-The cells with thick borders indicate statistically significant relationships. We can observe that there are some countries where the relationship between prevalence and research is statistically significant. For example, research in France is positively related to disease prevalence in Africa. In total 15 out of 144 relationships are statistically significant (p-value < 0.1). All these cases describe relationships where geographical proportions of disease prevalence predict the proportions of research conducted on the disease in a certain country.
+The cells with thick borders indicate statistically significant relationships. We can observe that there are some countries where the relationship between prevalence and research is statistically significant. For example, research in France is positively related to disease prevalence in Africa. In total 15 out of 144 relationships are statistically significant (p-value < 0.1). All these cases describe relationships where geographical proportions of disease prevalence per capita predict the proportions of research conducted on the disease in a certain country.
 
-In reality, there are many more diseases in the world, and many more factors that can affect amounts of research conducted on a disease. This analysis could be expanded to include more diseases and more factors to get a better understanding of the factors that affect research on diseases.
+The analysis shows that there are indeed some relationships between the prevalence of a disease in a region and the amount of research conducted on it in some countries. However, few results are statistically significant. This suggests that the relationship between disease prevalence and research in geographical terms is not very strong, but does exist in some cases. In reality, there are many other factors that can affect the amount of research conducted on a disease, such as the resources available in a country, which probably have a greater impact on the amount of research conducted.
