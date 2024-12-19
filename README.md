@@ -12,25 +12,27 @@ These are the research questions we try to answer:
 
 ## Some Analysis on BindingDB Dataset
 
- To answer these questions, we use the BindingDB dataset. It contains data about the binding affinity between ligands and targets. It contains 2937206 results on 1,295,089 ligands and 6746 targets. In total, there are 330 different source organisms for the targets. For each experiment, we have the institution where it was made (university or company). Since we want to make a geographical analysis of the trends of research, we focused on the universities and institutions that are located only in one country (companies have multiple faculties in different countries). 
+To answer these questions, we use the BindingDB dataset. It provides information on the interactions between proteins and ligands, focusing on binding affinity data. It contains 2,937,206 results on 1,295,089 ligands and 6746 targets. In total, there are 330 different source organisms for the targets. BindingDB provides a lot of data for each experiment, there are 194 columns. For each experiment, we have the binding affinities constants such as Ki, Kd, IC50 and EC50, we have the ligand’s SMILES representation, the target name, the target source organism and the institution where the experiment was made. Since we want to make a geographical analysis of the trends of research, we focused on institutions that are located only in one country (some companies have multiple faculties in different countries).
+
+## Geographical analysis 
 
 ![alt text](Top_10_Countries_by_number_of_institutions.png)
 
-From this graph, we can see that the United States is the country with the most institutions that have carried out experiments listed in the dataset. Then there is China, Germany and Italy.
+The graph shows that the United States has the highest number of institutions conducting experiments listed in the dataset, followed by China, Germany, and Italy.
 
 ![alt text](Top_10_Countries_by_number_of_contributions.png)
 
-From this graph, we can see that the USA is the country that has carried out the most experiments (around 380000 experiments were made in the USA), while China is second with around 150000 experiments and then there is Germany and Italy with around 100000 experiments
+Based on the graph, the USA has conducted the highest number of experiments listed in the dataset, totaling approximately 380,000. China follows with around 150,000 experiments, while Germany and Italy are next, each contributing roughly 100,000 experiments.
 
 ![alt text](Institutions_by_continent_pie_chart.png)
 
-From this graph, we can see that Europe is the continent with the most institutions (39.4%) that have carried out experiments listed in the dataset. Then there is Asia (29.0%) and North America (26.8%).
+The graph indicates that Europe has the highest proportion of institutions conducting experiments in the dataset, with 39.4%. Asia follows with 29.0%, and North America accounts for 26.8%.
 
 ![alt text](contributions_by_continent_pie_chart.png)
 
-From this graph, we observe that 39.2% of the experiments are made in North America, 34.3% in Europe and 23.5% in Asia while only 3% are made in Africa/Oceania/South America.
+The graph shows that 39.2% of the experiments were conducted in North America, 34.3% in Europe, and 23.5% in Asia, while only 3% took place in Africa, Oceania, and South America combined.
 
-In conclusion, we observe that most of the research is done in Europe, North America and Asia. Then we wanted to analyze how research activity aligns with disease presence across countries and continents. 
+In conclusion, the graphs show that the majority of research is conducted in Europe, North America, and Asia, and most research institutions are also located in these regions.
 
 # Does the prevalence of a disease in a region drive the amount and focus of research conducted there?
 
@@ -58,7 +60,7 @@ Having data on quantity of research and disease prevalence in different countrie
 
 For each disease, we depict below the prevalence of the given disease against the number of experiments conducted on it:
 
- - [HIV](https://Amine-ZGHAL.github.io/hotada/plot_HTML.html)
+ - [HIV](plot_HIV.html)
  - [Plasmodium falciparum](plot_Plasmodium_falciparum.html)
  - [Poliovirus](plot_Poliovirus.html)
  - [Plasmodium vivax](plot_Plasmodium_vivax.html)
